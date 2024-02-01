@@ -1,0 +1,196 @@
+{
+  "semantic": {
+    "color": {
+      "actions": {
+        "primary": {
+          "default": {
+            "border": {
+              "value": "{semantic.primary.fg}",
+              "type": "color"
+            },
+            "background": {
+              "value": "{semantic.primary.fg}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{semantic.fg.on-accent}",
+              "type": "color"
+            }
+          }
+        },
+        "secondary": {
+          "default": {
+            "border": {
+              "value": "{semantic.secondary.disabled}",
+              "type": "color"
+            },
+            "background": {
+              "value": "{semantic.bg.surface}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{semantic.secondary.default}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "inputs": {
+        "default": {
+          "background": {
+            "value": "{semantic.bg.surface}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{semantic.border.default}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{semantic.fg.on-disabled}",
+            "type": "color"
+          }
+        },
+        "label": {
+          "value": "{semantic.fg.muted}",
+          "type": "color"
+        },
+        "hint-text": {
+          "value": "{semantic.fg.on-disabled}",
+          "type": "color"
+        },
+        "icon": {
+          "value": "{semantic.fg.on-disabled}",
+          "type": "color"
+        },
+        "extra-icon": {
+          "value": "{semantic.fg.faded}",
+          "type": "color"
+        },
+        "dropdown-text": {
+          "value": "{semantic.fg.default}",
+          "type": "color"
+        }
+      }
+    },
+    "spacing": {
+      "actions": {
+        "sm": {
+          "padding-left": {
+            "value": "{spacing.3-5}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{spacing.3-5}",
+            "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{spacing.1-5}",
+            "type": "spacing"
+          },
+          "padding-bottom": {
+            "value": "{spacing.1-5}",
+            "type": "spacing"
+          },
+          "space-between": {
+            "value": "8",
+            "type": "spacing"
+          }
+        }
+      },
+      "inputs": {
+        "space-between": {
+          "value": "8",
+          "type": "spacing"
+        },
+        "md": {
+          "padding-left": {
+            "value": "{spacing.3-5}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{spacing.3-5}",
+            "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{spacing.2}",
+            "type": "spacing"
+          },
+          "padding-bottom": {
+            "value": "{spacing.2}",
+            "type": "spacing"
+          },
+          "padding-tags": {
+            "value": "{spacing.1-5}",
+            "type": "spacing"
+          }
+        }
+      }
+    },
+    "border-radius": {
+      "actions": {
+        "sm": {
+          "value": "{border-radius.sm}",
+          "type": "borderRadius"
+        }
+      },
+      "inputs": {
+        "sm": {
+          "value": "{border-radius.sm}",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "border-width": {
+      "actions": {
+        "none": {
+          "value": "{border-width.none}",
+          "type": "borderWidth"
+        },
+        "sm": {
+          "value": "{border-width.xs}",
+          "type": "borderWidth"
+        }
+      },
+      "inputs": {
+        "none": {
+          "value": "{border-width.none}",
+          "type": "borderWidth"
+        },
+        "sm": {
+          "value": "{border-width.xs}",
+          "type": "borderWidth"
+        }
+      }
+    },
+    "sizing": {
+      "actions": {
+        "icon": {
+          "xs": {
+            "value": "16",
+            "type": "sizing"
+          },
+          "sm": {
+            "value": "20",
+            "type": "sizing"
+          },
+          "md": {
+            "value": "20",
+            "type": "sizing"
+          },
+          "lg": {
+            "value": "20",
+            "type": "sizing"
+          },
+          "xl": {
+            "value": "20",
+            "type": "sizing"
+          },
+          "2xl": {
+            "value": "24",
+            "type": "sizing"
+          }
+        }
+      }
+    }
+  }
+}

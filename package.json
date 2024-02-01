@@ -1,0 +1,12 @@
+{
+  "name": "tokens-test",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build-tokens": "node build-tokens.js"
+  },
+  "devDependencies": {
+    "@tokens-studio/sd-transforms": "^0.13.4",
+    "style-dictionary": "^3.9.2"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "button": {
+    "color": {
+      "primary": {
+        "default": {
+          "background": {
+            "value": "{semantic.color.actions.primary.default.background}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{semantic.color.actions.primary.default.border}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{semantic.color.actions.primary.default.text}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{semantic.color.actions.primary.default.text}",
+            "type": "color"
+          }
+        }
+      },
+      "secondary": {
+        "default": {
+          "background": {
+            "value": "{semantic.color.actions.secondary.default.background}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{semantic.color.actions.secondary.default.border}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{semantic.color.actions.secondary.default.text}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{semantic.color.actions.secondary.default.text}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "sm": {
+      "padding-left": {
+        "value": "{semantic.spacing.actions.sm.padding-left}",
+        "type": "spacing"
+      },
+      "padding-right": {
+        "value": "{semantic.spacing.actions.sm.padding-right}",
+        "type": "spacing"
+      },
+      "padding-top": {
+        "value": "{semantic.spacing.actions.sm.padding-top}",
+        "type": "spacing"
+      },
+      "padding-bottom": {
+        "value": "{semantic.spacing.actions.sm.padding-bottom}",
+        "type": "spacing"
+      },
+      "icon-size": {
+        "value": "{semantic.sizing.actions.icon.sm}",
+        "type": "sizing"
+      },
+      "border-radius": {
+        "value": "{semantic.border-radius.actions.sm}",
+        "type": "borderRadius"
+      },
+      "typography": {
+        "value": "{body.sm.Semibold}",
+        "type": "typography"
+      }
+    },
+    "md": {
+      "border-radius": {
+        "value": "{semantic.border-radius.actions.sm}",
+        "type": "borderRadius"
+      }
+    },
+    "border-width": {
+      "none": {
+        "value": "{semantic.border-width.actions.none}",
+        "type": "borderWidth"
+      },
+      "sm": {
+        "value": "{semantic.border-width.actions.sm}",
+        "type": "borderWidth"
+      }
+    }
+  }
+}
